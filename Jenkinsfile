@@ -8,6 +8,7 @@ steps {
 echo "check 1"
 
 git clone https://github.com/sharathadi/cprgm.git
+cd /var/lib/jenkins/workspace/pipel/cprgm
 
 make
   '''
